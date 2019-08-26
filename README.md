@@ -1,12 +1,9 @@
-# Android Stickers Apps for WhatsApp
+# Android Stickers App for WhatsApp
 
-## Overview
+## Meant for Meme Stickers.
 
-If you would like to design your own stickers for WhatsApp, you can package them in an Android app. You will need to distribute your app via the Google Play Store or another mechanism. Users who download and install your sticker app will be able to add your stickers to their WhatsApp sticker picker/tray, and start sending those stickers from within WhatsApp. A separate app is necessary and it will reside on your phone's home screen just like any other app. Stickers on WhatsApp must be legal, authorized, and acceptable. Learn more about acceptable use of our services at https://www.whatsapp.com/legal/#terms-of-service.
 
-The sample code provides a simple way for you to drop in your sticker art and build an Android app with minimal development or coding experience needed. For advanced developers looking to make richer sticker apps, refer to the section [Advanced Development](#advanced-development) below.
 
-We recommend you create a version of your sticker app for iOS as well to give users of WhatsApp on iOS an opportunity to download your sticker app as well.
 ## Sticker art and app requirements
 We recommend you refer to the FAQ at https://faq.whatsapp.com/general/26000226 for complete details on how to properly create your sticker art. This FAQ also contains a sample PSD that demonstrates best practices for composing legible, rich sticker art.
 
@@ -33,7 +30,7 @@ We recommend reducing the size of each of your stickers. For reference, many of 
 
 * The first method involves optimizing your PNGs using a PNG optimizer tool. If you're on MacOS, use https://pngmini.com. We recommend using Median Cut and adjusting the colors bar to reduce the size. If you're on Windows, use https://nukesaq88.github.io/Pngyu to optimize your PNGs. Then, convert them to WebP using the methods described in the [Converting to WebP](#converting-to-webp) section.
 * The second method involves saving or converting your stickers as WebP while experimenting with the WebP export settings trying to optimize the images. You should try setting the quality of your WebP output to something lower than 100% and experiment with a quality level that gets you the smallest file size possible without noticeable image degradation. Each of the methods described in [Converting to WebP](#converting-to-webp) for exporting your files to WebP offer ways to control your resolution.  
- 
+
 ### Converting to WebP
 Your sticker art must be in the WebP format. We recommend using the tools you're most comfortable with to draw and compose your art, and converting them to WebP using one of a few different tools:
 
